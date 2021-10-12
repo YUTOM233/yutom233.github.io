@@ -1,12 +1,43 @@
 # yutom233.github.io
 hexo
-# hexo部署
-[baidu](www.baidu.com)
-'''javascript
-$(document).ready(){
-};
-});
-'''
-|bt|bt|
-|:-|;-|
-|dc|dc|
+# MarkDown文档
+> 轻量级标记语言
+## 介绍
+-支持自定义样式
+-支持各大平台
+## 语法
+### 标题
+> #一级标题
+> #二级标题
+### 字体
+**粗体**
+*斜体*
+### 无序列表
+- 无序列表 1
+- 无序列表 2
+  - 层级列表
+### 有序列表
+1. 有序列表
+2. 有序列表
+### 引用
+> 读书
+### 链接
+直接链接'baidu.com'
+标准[baidu](https://www.baidu.com)
+图片![baidu](https://www.baidu.com)
+### 分割线
+---
+### 表格
+| 姓名 | 年龄 | 工作 |
+| :---- | :--: | ----: |
+| name | age | work |
+### 脚注
+```markdwon
+链接：[]()
+```
+### 代码块
+```java
+public class helloworld{}
+```
+### 横屏滑动幻灯片
+通过`<![](url),![](url)>`设置
